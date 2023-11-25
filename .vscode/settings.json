@@ -2,8 +2,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true,
-      "source.addMissingImports": true
+      "source.fixAll.eslint": "explicit",
+      "source.addMissingImports": "explicit"
     },
     "[typescriptreact]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -15,6 +15,12 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "typescript.tsdk": "node_modules/typescript/lib",
-    "svg.preview.background": "transparent"
+    "svg.preview.background": "transparent",
+    "[python]": {
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.addMissingImports": "explicit"
+      }
+    }
   }
   

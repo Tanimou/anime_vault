@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 
 import "./globals.css";
+import React from "react";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
